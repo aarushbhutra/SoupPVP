@@ -1,0 +1,11 @@
+name: SoupPVP
+version: '${project.version}'
+main: me.anon695.souppvp.SoupPVP
+authors: [ Anon695 ]
+commands:
+  soupspawn:
+    permission: souppvp.setspawn
+  spawn:
+  basekit:
+    permission: souppvp.basekit
+
