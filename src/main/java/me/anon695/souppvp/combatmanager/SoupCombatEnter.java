@@ -21,6 +21,7 @@ public class SoupCombatEnter implements Listener {
             if(e.getDamager() instanceof Player) {
                 Player damager = (Player) e.getDamager();
                 soupPVP.addCombatTag(damager, target);
+
             }
         }
     }
